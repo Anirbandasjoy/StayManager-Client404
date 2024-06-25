@@ -7,6 +7,7 @@ import Save from "@/pages/dashboard/save/Save";
 import Bookings from "@/pages/dashboard/bookings/Bookings";
 import Students from "@/pages/dashboard/students/Students";
 import Rooms from "@/pages/dashboard/rooms/Rooms";
+import Settings from "@/pages/dashboard/settings/Settings";
 
 export const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ export const router = createBrowserRouter([
       {
         path: "rooms",
         element: <Rooms />,
+      },
+      {
+        path: "settings",
+        element: <Settings />,
       },
     ],
   },
